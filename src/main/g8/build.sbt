@@ -48,8 +48,8 @@ lazy val $name$Sample = (
       ScalaJSWart.ArrayPartial,
       ScalaJSWart.UndefOrOpsPartial
     ),
-    scalaSource in Compile := file(s"\${baseDirectory.value.getAbsolutePath}/$name$-sample"),
-    scalaSource in Test := file(s"\${baseDirectory.value.getAbsolutePath}/$name$-sample/test"),
+    scalaSource in Compile := file(s"\${baseDirectory.value.getAbsolutePath}/app"),
+    scalaSource in Test := file(s"\${baseDirectory.value.getAbsolutePath}/test"),
     version := "0.0.1",
     libraryDependencies := Seq(
       "org.scalactic" %%% "scalactic" % "3.0.1" % "test",
