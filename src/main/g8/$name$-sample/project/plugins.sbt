@@ -10,7 +10,4 @@ addSbtPlugin("org.wartremover" % "sbt-wartremover" % "2.0.2")
 
 addSbtPlugin("org.danielnixon" % "sbt-scalajswarts" % "0.4.0")
 
-addSbtPlugin("org.danielnixon" % "sbt-extrawarts" % "0.2.0")
-
 addSbtPlugin("com.softwaremill.clippy" % "plugin-sbt" % "0.5.1")
-

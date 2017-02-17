@@ -1,5 +1,22 @@
 A [Giter8][g8] template for Scala.js libraries.
 
+## How to use?
+
+```bash
+g8 scalamorphing/bundlejs
+```
+
+## What's included?
+
+* Clippy
+* WartRemover with ScalaJS warts
+* Scalariform
+* ScalaJS
+* ScalaTest
+* Scalctic
+* ScalTags
+* Monix with Cats
+
 Template license
 ----------------
 Written in 2017 by Maxim Chepel scalamorphing@gmail.com
